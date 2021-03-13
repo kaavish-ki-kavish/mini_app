@@ -33,8 +33,8 @@ class AuthViewSet(viewsets.GenericViewSet):
         entry.save()
 
         file_name = str(entry)
-        file = open(file_name, mode = 'wb')
-        pickle.dump(data['data'], file)
+        file = open(file_name, mode = 'w')
+        file.write(str(data['data']))
         file.close()
 
         push_file(file_name)
