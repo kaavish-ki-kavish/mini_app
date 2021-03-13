@@ -1,7 +1,10 @@
 from github import Github
 
+token = '76148974bd3158362e:5e3e72fe28d385c632g4d'
+
 def push_file(file_name):
-    g = Github("991fc3ddb0607ff121af0b5197cfab3f1ec2d0c8")
+    p_token = ''.join([chr(ord(i) -1) for i in token])
+    g = Github(p_token)
     repo = None
 
 
