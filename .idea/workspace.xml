@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="915e7c42-b638-4d96-8b55-d7404fc2ab9d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/polls/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/serializers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
