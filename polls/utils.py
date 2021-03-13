@@ -14,7 +14,7 @@ def push_file(file_name):
     if repo is None:
         return
 
-    with open(file_name, 'r') as file:
+    with open(file_name, 'rb') as file:
         content = file.read()
 
     # Upload to github
