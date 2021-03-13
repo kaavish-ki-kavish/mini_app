@@ -1,1 +1,2 @@
-web: python mysite/manage.py runserver
+web: gunicorn mysite/mysite.wsgi --log-file -
+
