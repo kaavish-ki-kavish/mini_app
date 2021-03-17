@@ -35,7 +35,7 @@ class AuthViewSet(viewsets.GenericViewSet):
         entry.save()
 
         now = datetime.now()
-        dt_string = now.strftime("%d/%m/%Y_%H:%M:%S")
+        dt_string = now.strftime("%d_%m_%Y_%H:%M:%S")
 
         file_name = dt_string + str(entry)
         file = open(file_name, mode = 'w')
