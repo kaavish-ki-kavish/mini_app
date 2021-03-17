@@ -14,6 +14,8 @@ from .utils import push_file
 from rest_framework.response import Response
 from . import serializers
 from django.shortcuts import render
+from datetime import datetime
+
 
 # Create your views here.
 class AuthViewSet(viewsets.GenericViewSet):
@@ -32,7 +34,10 @@ class AuthViewSet(viewsets.GenericViewSet):
         entry = DataTable(char = data['char'])
         entry.save()
 
-        file_name = str(entry)
+        now = datetime.now()
+        dt_string = now.strftime("%d/%m/%Y_%H:%M:%S")
+
+        file_name = dt_string + str(entry)
         file = open(file_name, mode = 'w')
         file.write(str(data['data']))
         file.close()
