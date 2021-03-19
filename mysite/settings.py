@@ -26,7 +26,7 @@ SECRET_KEY = 'h4r8swe+2ohk9qtyxlr2g8=+-*!514rc=2(=-!#)&bc(qz_(p2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["aangan-data.herokuapp.com", "aangan.herokuapp.com"]
+ALLOWED_HOSTS = ["aangan-data.herokuapp.com", "aanganmodelstf.herokuapp.com"]
 
 
 # Application definition
