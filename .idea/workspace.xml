@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="915e7c42-b638-4d96-8b55-d7404fc2ab9d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10_a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/15_a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_faraz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_faraz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5_aa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/6_a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7_a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/8_a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/9_a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
