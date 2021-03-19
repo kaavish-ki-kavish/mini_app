@@ -1,6 +1,5 @@
 from django.contrib.auth import authenticate, get_user_model, login
 from rest_framework import serializers
-from .models import ChildProfile
 import numpy as np
 import os
 import cv2
