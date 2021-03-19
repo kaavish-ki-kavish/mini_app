@@ -11,8 +11,6 @@ from rest_framework.views import APIView
 from django.db.models import Max, Min
 import os, datetime, random, copy
 
-from .models import ChildProfile, Characters, Session, History, ObjectWord, ColoringExercise, DrawingExercise
-
 from rest_framework.response import Response
 from . import serializers
 from .utils import get_whole_stroke
