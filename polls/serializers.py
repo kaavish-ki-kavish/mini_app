@@ -8,6 +8,7 @@ class DataEntrySerializer(serializers.Serializer):
         child=serializers.ListField(
             child = serializers.ListField(
             child= serializers.IntegerField())))
+    exercise = serializers.IntegerField()
 
 class EmptySerializer(serializers.Serializer):
     pass
